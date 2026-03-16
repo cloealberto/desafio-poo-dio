@@ -1,0 +1,5 @@
+services:
+  bootcamp-java:
+    build: .
+    container_name: bootcamp-java-app
+    command: java -cp out Main
